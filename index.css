@@ -1,0 +1,106 @@
+body{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px; 
+}
+.navbar ul{
+    display: flex;
+    padding: 0;
+}
+.navbar li{
+    list-style: none;
+    padding: 0px 20px;
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+}
+#active {
+    /* text-decoration: underline;
+    text-decoration-color: white;  */
+    border-bottom: white solid 2px; 
+}
+.fa-linkedin-in {
+    font-size: 20px;
+    cursor: pointer;
+}
+.fa-instagram {
+    font-size: 20px;
+    cursor: pointer;
+}
+.fa-envelope {
+    font-size: 20px;
+    cursor: pointer;
+}
+.container {
+    border: 2px solid grey;
+    position: relative;
+    width: 500px; 
+}
+.container:hover .overlay {
+    opacity: 1;
+  }
+.image1 {
+    width: 100%;
+    height: 100%;
+}
+.image2 {
+    width: 100%;
+    height: 100%;
+}
+.image3 {
+    width: 100%;
+    height: 100%;
+}
+.overlay {
+    position: absolute;
+    top: 0%;
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .5s ease; 
+}
+.text {
+    font-weight: bold;
+}
+.welcome {
+    padding-left: 16%;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.introduction {
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-left: 16%;
+    padding-right: 16%;
+    text-align: left;
+    font-weight: 600;
+}
+.text1{
+    text-align: center;
+}
+.footer {
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+.main {
+ display: flex; 
+ width: 100%;  
+}
+.nobullet {
+    list-style-type: none;
+}
